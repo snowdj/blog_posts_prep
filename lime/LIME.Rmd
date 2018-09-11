@@ -24,7 +24,7 @@ On each permutation, a linear model is being fit and weights are given so that i
 The code for LIME has originally been made available for [Python](https://github.com/marcotcr/lime) but the awesome Thomas Lin Pederson has already created an [implementation in R](https://github.com/thomasp85/lime). It is not on CRAN (yet, I assume), but you can install it via Github:
 
 ```{r eval=FALSE}
-devtools::install_github("thomasp85/lime")
+install.packages("lime")
 ```
 
 <br>
